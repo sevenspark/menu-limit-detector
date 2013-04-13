@@ -42,7 +42,7 @@ function mldetect_check_post_limits(){
 		foreach( $r as $key => $val ){
 			if( $val > 0 ){
 				if( $val - $currentPostVars_count < 150 ){
-					$message[] = __( "You are approaching the post variable limit imposed by your server configuration.  Exceeding this limit may automatically delete menu items when you save.  Please increase your <strong>$key</strong> directive in php.ini.  <a href='http://sevenspark.com/wordpress/the-wordpress-menu-item-limit-or-help-half-my-menu-items-just-disappeared'>More information</a>" , 'mldetect' );
+					$message[] = __( "You are approaching the post variable limit imposed by your server configuration.  Exceeding this limit may automatically delete menu items when you save.  Please increase your <strong>$key</strong> directive in php.ini.  <a href='http://goo.gl/9jm7s'>More information</a>" , 'mldetect' );
 				}
 			}
 		}
